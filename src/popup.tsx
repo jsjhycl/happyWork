@@ -34,9 +34,11 @@ const Popup = () => {
 
   return (
     <>
-      <ul style={{ minWidth: "700px" }}>
-        <li>Current URL: {currentURL}</li>
-        <li>Current Time: {new Date().toLocaleTimeString()}</li>
+      <h1>美女使人赏心悦目：</h1>
+      <img style={{ width: '300px', height: '300px', objectFit: 'cover' }} src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic33.nipic.com%2F20131008%2F7447430_112059179000_2.jpg&refer=http%3A%2F%2Fpic33.nipic.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1633860079&t=616cb0c307565603b520b646283f677e" alt="" />
+      <ul>
+        <li>当前url: {currentURL}</li>
+        <li>当前时间: {new Date().toLocaleTimeString()}</li>
       </ul>
       <button
         onClick={() => setCount(count + 1)}
